@@ -7,6 +7,7 @@
 body{
     font-family:Inter;
     margin:0;
+    max-width:1440px;
 }
 
 /* sidemain */
@@ -114,4 +115,77 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 16px;
+}
+
+/* top bar */
+
+
+.topbar{
+    background: var(--Slate-50, #F8FAFC);
+    width:1180px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:72px;
+}
+
+.search{
+    max-width:260px;
+    height:40px;
+    position:relative;
+    display:flex;
+    align-items: center;
+}
+
+.search input{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:260px;
+    height:40px;
+    border-radius: 4px;
+    border: 1px solid var(--Slate-300, #CBD5E1);
+    background: var(--Slate-100, #F1F5F9);
+    position:absolute;
+}
+
+.search ::placeholder{
+    color: var(--Slate-600, #475569);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    padding-left:40px;
+}
+
+.s1{
+    position:absolute;
+    left:auto;
+    padding-left:16px;
+    padding-bottom:12px;
+    padding-top:12px;
+}
+
+.username{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:249px;
+    height:28px;
+}
+
+.name h3{
+    color: var(--Slate-800, #1E293B);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.name p{
+    color: var(--Slate-600, #475569);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
 }
