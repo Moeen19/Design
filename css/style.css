@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
 body{
+    font-family:Inter;
     margin:0;
 }
 
 /* sidemain */
+
+.main{
+    display:flex;
+}
 
 .sidemain{
     display: flex;
@@ -38,12 +47,71 @@ body{
 }
 
 .cl{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    width: 24px;
+    height: 24px;
     padding: 0px 3.971px 0px 3.973px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Sidebar */
 
+.sidebar{
+    display: flex;
+    height: 1166px;
+    flex-direction: column;
+    align-items: center;
+    width:208px;
+    margin-top:16px;
+    gap:24px;
+}
 
+.sb1{
+    width:auto;
+    height:40px;
+}
+
+.nav{
+    display: flex;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height:40px;
+}
+
+.nav p{
+    color: var(--blue-700, #1D4ED8);
+    font-size:12px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style:normal;
+    width:132px;
+}
+
+.nav1{
+    width:208px;
+    height:32px;
+    display: flex;
+    padding: 8px 16px 8px 40px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.nav1 p{
+    color: var(--Slate-600, #475569);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.nav2 p{
+    color: var(--Slate-800, #1E293B);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
