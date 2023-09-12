@@ -7,12 +7,13 @@
 body{
     font-family:Inter;
     margin:0;
-    max-width:1440px;
 }
 
 /* sidemain */
 
 .main{
+    max-width:1440px;
+    width:100%;
     display:flex;
 }
 
@@ -24,6 +25,7 @@ body{
     align-items: center;
     align-self:stretch;
     max-width:42px;
+    width:100%;
     border-radius: 6px 0px 0px 6px;
     background: #FFF;
     box-shadow: -1px 0px 0px 0px rgba(0, 0, 0, 0.04) inset;
@@ -63,8 +65,9 @@ body{
     height: 1166px;
     flex-direction: column;
     align-items: center;
-    width:208px;
-    margin-top:16px;
+    max-width:208px;
+    width:100%;
+    padding-top:71px;
     gap:24px;
 }
 
@@ -119,14 +122,21 @@ body{
 
 /* top bar */
 
+.main2{
+    max-width:1180px;
+    width:100%;
+    background: var(--Slate-50, #F8FAFC);
+}
 
 .topbar{
     background: var(--Slate-50, #F8FAFC);
-    width:1180px;
+    max-width:1180px;
+    width:100%;
     display:flex;
     align-items: center;
     justify-content: space-between;
     height:72px;
+    border-bottom:#CBD5E1 1px solid;
 }
 
 .search{
@@ -135,12 +145,15 @@ body{
     position:relative;
     display:flex;
     align-items: center;
+    padding-left:24px;
+    padding-top: 16px;
+    padding-bottom:16px;
 }
 
 .search input{
-    display:flex;
+    /* display:flex;
     align-items:center;
-    justify-content: center;
+    justify-content: center; */
     width:260px;
     height:40px;
     border-radius: 4px;
@@ -168,24 +181,171 @@ body{
 
 .username{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width:249px;
-    height:28px;
+    max-width:333px;
+    width:100%;
+    border-left:1px #CBD5E1 solid;
+    padding-top:22px;
+    padding-bottom:22px;
+    padding-right:28px;
+    padding-left:28px;
 }
 
-.name h3{
+
+.name{
+    display:flex;
+    gap:20px;
+}
+
+.name1 h3{
     color: var(--Slate-800, #1E293B);
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 16px;
+    margin:0;
 }
 
-.name p{
+.name1 p{
     color: var(--Slate-600, #475569);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 12px;
+    margin:0;
+}
+
+.sv2{
+    width: 24px;
+    height: 24px;
+  
+}
+
+.section{
+    display:flex;
+    flex-direction: column;
+    gap:4px;
+    padding-top:16px;
+    padding-left:28px;
+    padding-bottom:24px;
+}
+.section h1{
+    color: var(--Slate-800, #1E293B);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin:0;
+}
+
+.section p{
+    color: var(--Slate-600, #475569);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    margin:0;
+}
+
+.product{
+    max-width: 1124px;
+    width:100%;
+    height: 980px;
+    border-radius: 4px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.07);
+    margin-left:24px;
+    margin-right:24px;
+    width:auto;
+}
+
+.search1{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    max-width:260px;
+    width:100%;
+    height:40px;
+    padding-top: 24px;
+    padding-left:24px;
+    position:relative;
+}
+
+.search1 input{
+    max-width: 236px;
+    width:100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--Slate-300, #CBD5E1);
+    position:relative;
+}
+
+.search1 ::placeholder{
+    color: var(--Slate-600, #475569);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    padding-left:16px;
+    position:absolute;
+}
+
+.s2{
+    position:absolute;
+    right:0;
+    padding-right:16px;
+    padding-bottom:12px;
+    padding-top:12px;
+}
+
+.topbar2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.status{
+    border-radius: 4px;
+    border: 1px solid var(--Blue-700, #1D4ED8);
+    display: inline-flex;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width:110px;
+    height:44px;
+}
+
+.status p{
+    color: var(--Blue-700, #1D4ED8);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    width:44px;
+    height:14px;
+}
+
+.sv3{
+    width:16px;
+    height:16px;
+} */
+
+.status2{
+    display: inline-flex;
+    height: 44px;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Blue-700, #1D4ED8);
+}
+
+.status2 p{
+    color: var(--White, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
 }
