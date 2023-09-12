@@ -304,6 +304,11 @@ body{
     justify-content: space-between;
 }
 
+.Status{
+    margin-top:24px;
+    padding-right:36px;
+}
+
 .status{
     border-radius: 4px;
     border: 1px solid var(--Blue-700, #1D4ED8);
@@ -329,7 +334,7 @@ body{
 .sv3{
     width:16px;
     height:16px;
-} */
+} 
 
 .status2{
     display: inline-flex;
@@ -340,6 +345,7 @@ body{
     gap: 10px;
     border-radius: 4px;
     background: var(--Blue-700, #1D4ED8);
+    padding-left: 24px;
 }
 
 .status2 p{
