@@ -542,7 +542,7 @@ th, td {
     background: var(--White, #FFF);
     box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.10), 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
     position:absolute;
-    right:190px;
+    right:195px;
     top:76px;
     padding-bottom:10px;
     padding-top:10px;
@@ -704,6 +704,5 @@ th, td {
 .pgno{
     max-width:1069px;
     width:100%;
-    display:flex;
-    justify-content: flex-end;
+    margin:24px 24px 24px 781px;
 }
