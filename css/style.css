@@ -8,7 +8,6 @@
 
 body{
     font-family:Inter;
-    margin:0;
 }
 
 /* sidemain */
@@ -72,7 +71,7 @@ body{
     align-items: center;
     max-width:208px;
     width:100%;
-    padding-top:71px;
+    padding-top:50px;
     margin-top:24px;
     gap:24px;
 }
@@ -693,7 +692,6 @@ th, td {
 
 .pageNo{
     display: flex;
-    width: 319px;
     align-items: center;
     gap: 12px;
     border-radius: 6px;
