@@ -161,7 +161,7 @@ body{
     align-items: center;
     justify-content: space-between;
     /* height:72px; */
-    position:fixed;
+    /* position:fixed; */
     border-bottom:#CBD5E1 1px solid;
     z-index:9;
 }
