@@ -8,6 +8,8 @@
 
 body{
     font-family:Inter;
+    height:100%;
+    background:#F8FAFC;
 }
 
 /* sidemain */
@@ -24,6 +26,7 @@ body{
 .navbar{
     position:fixed;
     /* display:flex; */
+    max-height:1160px;
     height:100%;
     max-width:260px;
     width:100%;
@@ -159,13 +162,18 @@ body{
     max-width: 100%;
     width:100%;
     display:grid;
-    grid-template-columns: 1fr 35%;
+    grid-template-columns: 1fr 40%;
     align-items: center;
     /* justify-content: space-between; */
     /* height:72px; */
     position:fixed;
     border-bottom:#CBD5E1 1px solid;
     z-index:1;
+}
+
+.user1{
+    max-width:333px;
+    width:100%;
 }
 
 .search{
@@ -212,7 +220,8 @@ body{
 
 .username{
     display:flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap:84px;
     align-items: center;
     max-width:333px;
     width:100%;
@@ -746,7 +755,8 @@ th, td {
     border-radius: 6px;
     position:absolute;
     right:70px;
-    top:38px;
+    top:43px;
+    bottom:110px;
     /* padding-top:24px;
     padding-bottom:24px; */
 }
@@ -757,3 +767,4 @@ th, td {
     position:absolute;
     
 }
+
