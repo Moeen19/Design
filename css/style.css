@@ -58,6 +58,10 @@ body{
     gap: 16px;
 }
 
+.icons:hover{
+    cursor:pointer;
+}
+
 .icons2{
     display:flex;
     flex-direction: column;
@@ -66,6 +70,14 @@ body{
     justify-content:center;
     padding:8px 6px;
     gap:16px;
+}
+
+.icons2:hover{
+    cursor:pointer;
+}
+
+.ic2:hover{
+    fill:#555;
 }
 
 .cl{
@@ -96,6 +108,7 @@ body{
     z-index:10px;
 }
 
+
 .sb1{
     width:auto;
     height:40px;
@@ -108,6 +121,11 @@ body{
     align-items: center;
     gap: 8px;
     height:40px;
+}
+
+.nav:hover{
+    background:lightgray;
+    cursor: pointer;
 }
 
 .nav p{
@@ -127,6 +145,11 @@ body{
     align-items: center;
     gap: 8px;
     align-self: stretch;
+}
+
+.nav1:hover{
+    cursor: pointer;
+    background:lightgray;
 }
 
 .nav1 p{
@@ -159,10 +182,12 @@ body{
 
 .topbar{
     background: var(--Slate-50, #F8FAFC);
-    max-width: 100%;
-    width:100%;
-    display:grid;
-    grid-template-columns: 1fr 40%;
+    width:calc(100% - 280px);
+    /* width:calc(100%-280px); */
+    justify-content: space-between;
+    display:flex;
+    
+    /* grid-template-columns: 1fr 40%; */
     align-items: center;
     /* justify-content: space-between; */
     /* height:72px; */
@@ -199,6 +224,7 @@ body{
     background: var(--Slate-100, #F1F5F9);
     position:absolute;
     outline:none;
+    padding-left:40px;
 }
 
 .search ::placeholder{
@@ -207,7 +233,6 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 14px;
-    padding-left:40px;
 }
 
 .s1{
@@ -267,6 +292,10 @@ body{
   
 }
 
+.sv2:hover{
+    background:lightgray;
+}
+
 .section{
     display:flex;
     flex-direction: column;
@@ -304,7 +333,7 @@ body{
     position:relative;
     margin-left:30px;
     overflow:hidden;
-    padding-right:30px;
+    /* padding-right:30px; */
 }
 
 .search1{
@@ -327,6 +356,7 @@ body{
     border-radius: 4px;
     border: 1px solid var(--Slate-300, #CBD5E1);
     position:relative;
+    padding-left:40px;
 }
 
 .search1 ::placeholder{
@@ -335,13 +365,13 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 14px;
-    padding-left:16px;
+    /* padding-left:16px; */
     position:absolute;
 }
 
 .s2{
     position:absolute;
-    right:0;
+    left:40px;
     padding-right:16px;
     padding-bottom:12px;
     padding-top:12px;
@@ -386,6 +416,9 @@ select{
     width:110px;
     height:44px;
 }
+.status:hover{
+    background:lightgray;
+}
 
 .status p{
     color: var(--Blue-700, #1D4ED8);
@@ -414,6 +447,10 @@ select{
     background: var(--Blue-700, #1D4ED8);
     height:44px;
     /* padding-left: 24px; */
+}
+
+.status2:hover{
+    opacity:70%;
 }
 
 .status2 p{
@@ -585,6 +622,17 @@ th, td {
     padding:22px 24px;
 }
 
+.sq3:hover{
+    fill:#555;
+    cursor: pointer;
+}
+
+.sq4:hover{
+    fill:#555;
+    cursor: pointer;
+    background:lightgray;
+}
+
 /* .sta1{
     position:relative;
 } */
@@ -732,6 +780,14 @@ th, td {
     align-items: center;
 }
 
+.no:hover{
+    fill:#333;
+}
+.b1:hover{
+    fill:#333;
+    cursor:pointer;
+}
+
 .left{
     display: flex;
     padding: 8px;
@@ -762,7 +818,7 @@ th, td {
 }
 
 .pgno{
-    max-width:100%px;
+    max-width:100%;
     width:100%;
     position:absolute;
     
