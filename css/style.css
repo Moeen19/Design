@@ -182,7 +182,7 @@ body{
 
 .topbar{
     background: var(--Slate-50, #F8FAFC);
-    width:calc(100% - 280px);
+    width:calc(20px + calc(100% - 280px));
     /* width:calc(100%-280px); */
     justify-content: space-between;
     display:flex;
