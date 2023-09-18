@@ -773,6 +773,18 @@ th, td {
     background: #FFF;
 }
 
+.p1:hover{
+    background:lightgray;
+}
+
+.left:hover{
+    background:lightgray;
+}
+
+.right:hover{
+    background:lightgray;
+}
+
 .no{
     display: flex;
     width: 204px;
